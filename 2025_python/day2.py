@@ -1,10 +1,11 @@
 # ----------------- Part1, day2 ----------------
 
+import os
+
+script_dir = os.path.dirname(__file__)
+
 # ------------------- v1 ---------------------
 
-# import os
-
-# script_dir = os.path.dirname(__file__)
 
 # with open(f"{script_dir}/input.txt", "r") as file:
 #     ranges = file.readline().split(",")
@@ -26,10 +27,6 @@
 # print(invalid_id_sum)
 
 # ------------------- v2 ---------------------
-
-# import os
-
-# script_dir = os.path.dirname(__file__)
 
 # with open(f"{script_dir}/input.txt", "r") as file:
 #     ranges = file.readline().split(",")
@@ -65,11 +62,6 @@
 
 
 # ------------------- v3 ---------------------
-
-
-# import os
-
-# script_dir = os.path.dirname(__file__)
 
 # with open(f"{script_dir}/input.txt", "r") as file:
 #     ranges = file.readline().split(",")
@@ -107,10 +99,6 @@
 
 # ----------------- Part2, day2 ----------------
 
-
-import os
-
-script_dir = os.path.dirname(__file__)
 
 def get_digit_amount(number: int):
     digits = 1

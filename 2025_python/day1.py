@@ -1,8 +1,8 @@
 
 # ----------------- Part1, day1 ----------------
-# import os
+import os
 
-# script_dir = os.path.dirname(__file__) 
+script_dir = os.path.dirname(__file__) 
 
 # with open(f"{script_dir}/day1input.txt", "r") as file:
 #     lines = file.readlines()
@@ -23,10 +23,6 @@
 
 
 # ----------------- Part2, day1 ----------------
-
-import os
-
-script_dir = os.path.dirname(__file__) 
 
 with open(f"{script_dir}/day1input.txt", "r") as file:
     lines = file.readlines()
